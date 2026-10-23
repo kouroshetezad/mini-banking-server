@@ -1,0 +1,14 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "max_clients": 50,
+  "db_path": "extremeBonus/nodeA.db",
+  "log_path": "extremeBonus/nodeA.log",
+  "node": "A",
+  "role": "primary",
+  "peer": "http://192.168.64.131:8081",
+  "witness": "http://192.168.64.132:8099",
+  "failover_delay_ms": 3000,
+  "require_backup": true,
+  "require_witness": true
+}

@@ -1,0 +1,7 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "max_clients": 50,
+  "db_path": "server/bank.db",
+  "log_path": "server/requests.log"
+}

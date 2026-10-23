@@ -1,0 +1,12 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "max_clients": 50,
+  "db_path": "server/cluster.db",
+  "log_path": "server/cluster.log",
+  "node": "A",
+  "role": "primary",
+  "peer": "http://192.168.64.131:8081",
+  "failover_delay_ms": 3000,
+  "require_backup": true
+}

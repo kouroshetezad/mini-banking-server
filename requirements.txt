@@ -1,0 +1,8 @@
+# Runtime dependencies: none.
+# The server and the client use only the Python 3 standard library
+# (http.server, socketserver, sqlite3, json, threading, argparse, urllib).
+# Python >= 3.9 is required.
+#
+# Optional, only for running an external test runner; the bundled tests are
+# plain scripts and need nothing but Python itself:
+pytest>=7.4
